@@ -2,7 +2,7 @@
 //  Tests_macOS.swift
 //  Tests macOS
 //
-//  Created by Matthew Adas on 2/19/21.
+//  Created by Jeff Terry on 12/31/20.
 //
 
 import XCTest
@@ -30,6 +30,57 @@ class Tests_macOS: XCTestCase {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    /*
+    func testBoundingBoxVolume() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        // Given
+        let myBoundingBox = BoundingBox()
+        let length = 1.0
+        let width = 2.2
+        let height = 4.3
+        
+        let volume = myBoundingBox.calculateVolume(lengthOfSide1: length, lengthOfSide2: width, lengthOfSide3: height)
+        
+        // Then
+        XCTAssertEqual(volume, 9.46, accuracy: 0.000000001, "expected better from you")
+    }
+    
+    func testBoundingBoxSurfaceArea() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        // Given
+        let myBoundingBox = BoundingBox()
+        let length = 1.0
+        let width = 2.2
+        let height = 4.3
+        
+        let surfaceArea = myBoundingBox.calculateSurfaceArea(numberOfSides: 6, lengthOfSide1: length, lengthOfSide2: width, lengthOfSide3: height)
+        // Then
+        XCTAssertEqual(surfaceArea, 31.92, accuracy: 0.000000001, "expected better from you")
+    }
+    
+    func testMonteCarloIntegral() {
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let monteCarlo = MonteCarloCircle(withData: true)
+        
+        monteCarlo.guesses = 9120217
+        monteCarlo.calculatePI()
+        
+        let ourPI = Double(monteCarlo.piString)
+        
+        // Then
+        XCTAssertEqual(ourPI!, Double.pi, accuracy: 0.005, "expected better from you")
+        
+        let totalGuesses = Double(monteCarlo.totalGuesses)
+        XCTAssertEqual(totalGuesses, 9120217, accuracy: 0.005, "expected better from you")
+        
+    }
+*/
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
