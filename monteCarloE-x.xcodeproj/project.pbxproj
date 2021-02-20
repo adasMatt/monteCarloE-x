@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,35 @@
 		7F17046425E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17046225E025C800329BA9 /* monteCarloEToMinusX.swift */; };
 		7F17046525E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17046225E025C800329BA9 /* monteCarloEToMinusX.swift */; };
 		7F17046625E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F17046225E025C800329BA9 /* monteCarloEToMinusX.swift */; };
+		7F6711D325E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711C925E1B89700538DD5 /* ChangingPlotParameters.swift */; };
+		7F6711D425E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711C925E1B89700538DD5 /* ChangingPlotParameters.swift */; };
+		7F6711D525E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711C925E1B89700538DD5 /* ChangingPlotParameters.swift */; };
+		7F6711D625E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711C925E1B89700538DD5 /* ChangingPlotParameters.swift */; };
+		7F6711D725E1B89700538DD5 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CA25E1B89700538DD5 /* CorePlot.swift */; };
+		7F6711D825E1B89700538DD5 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CA25E1B89700538DD5 /* CorePlot.swift */; };
+		7F6711D925E1B89700538DD5 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CA25E1B89700538DD5 /* CorePlot.swift */; };
+		7F6711DA25E1B89700538DD5 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CA25E1B89700538DD5 /* CorePlot.swift */; };
+		7F6711DF25E1B89700538DD5 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CC25E1B89700538DD5 /* PlotDataClass.swift */; };
+		7F6711E025E1B89700538DD5 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CC25E1B89700538DD5 /* PlotDataClass.swift */; };
+		7F6711E125E1B89700538DD5 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CC25E1B89700538DD5 /* PlotDataClass.swift */; };
+		7F6711E225E1B89700538DD5 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CC25E1B89700538DD5 /* PlotDataClass.swift */; };
+		7F6711E325E1B89700538DD5 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CD25E1B89700538DD5 /* TextExportDocument.swift */; };
+		7F6711E425E1B89700538DD5 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CD25E1B89700538DD5 /* TextExportDocument.swift */; };
+		7F6711E525E1B89700538DD5 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CD25E1B89700538DD5 /* TextExportDocument.swift */; };
+		7F6711E625E1B89700538DD5 /* TextExportDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CD25E1B89700538DD5 /* TextExportDocument.swift */; };
+		7F6711E725E1B89700538DD5 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CE25E1B89700538DD5 /* operators.swift */; };
+		7F6711E825E1B89700538DD5 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CE25E1B89700538DD5 /* operators.swift */; };
+		7F6711E925E1B89700538DD5 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CE25E1B89700538DD5 /* operators.swift */; };
+		7F6711EA25E1B89700538DD5 /* operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CE25E1B89700538DD5 /* operators.swift */; };
+		7F6711EB25E1B89700538DD5 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CF25E1B89700538DD5 /* CalculatePlotData.swift */; };
+		7F6711EC25E1B89700538DD5 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CF25E1B89700538DD5 /* CalculatePlotData.swift */; };
+		7F6711ED25E1B89700538DD5 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CF25E1B89700538DD5 /* CalculatePlotData.swift */; };
+		7F6711EE25E1B89700538DD5 /* CalculatePlotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711CF25E1B89700538DD5 /* CalculatePlotData.swift */; };
+		7F6711EF25E1B89700538DD5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711D025E1B89700538DD5 /* TextView.swift */; };
+		7F6711F025E1B89700538DD5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711D025E1B89700538DD5 /* TextView.swift */; };
+		7F6711F125E1B89700538DD5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711D025E1B89700538DD5 /* TextView.swift */; };
+		7F6711F225E1B89700538DD5 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6711D025E1B89700538DD5 /* TextView.swift */; };
+		7F67120D25E1BA5900538DD5 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 7F67120C25E1BA5900538DD5 /* CorePlot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +102,13 @@
 		7F17044025E023FA00329BA9 /* BoundingBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BoundingBox.swift; path = "../../Monte-Carlo-Integration/Shared/BoundingBox.swift"; sourceTree = "<group>"; };
 		7F17044125E023FA00329BA9 /* Monte_Carlo_IntegrationApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monte_Carlo_IntegrationApp.swift; path = "../../Monte-Carlo-Integration/Shared/Monte_Carlo_IntegrationApp.swift"; sourceTree = "<group>"; };
 		7F17046225E025C800329BA9 /* monteCarloEToMinusX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monteCarloEToMinusX.swift; sourceTree = "<group>"; };
+		7F6711C925E1B89700538DD5 /* ChangingPlotParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangingPlotParameters.swift; sourceTree = "<group>"; };
+		7F6711CA25E1B89700538DD5 /* CorePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		7F6711CC25E1B89700538DD5 /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		7F6711CD25E1B89700538DD5 /* TextExportDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExportDocument.swift; sourceTree = "<group>"; };
+		7F6711CE25E1B89700538DD5 /* operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = operators.swift; sourceTree = "<group>"; };
+		7F6711CF25E1B89700538DD5 /* CalculatePlotData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatePlotData.swift; sourceTree = "<group>"; };
+		7F6711D025E1B89700538DD5 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F67120D25E1BA5900538DD5 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +161,13 @@
 			children = (
 				7F17044025E023FA00329BA9 /* BoundingBox.swift */,
 				7F17043E25E023FA00329BA9 /* ContentView.swift */,
+				7F6711C925E1B89700538DD5 /* ChangingPlotParameters.swift */,
+				7F6711CA25E1B89700538DD5 /* CorePlot.swift */,
+				7F6711CC25E1B89700538DD5 /* PlotDataClass.swift */,
+				7F6711CD25E1B89700538DD5 /* TextExportDocument.swift */,
+				7F6711CE25E1B89700538DD5 /* operators.swift */,
+				7F6711CF25E1B89700538DD5 /* CalculatePlotData.swift */,
+				7F6711D025E1B89700538DD5 /* TextView.swift */,
 				7F17043F25E023FA00329BA9 /* DrawingView.swift */,
 				7F17044125E023FA00329BA9 /* Monte_Carlo_IntegrationApp.swift */,
 				7F17043D25E023FA00329BA9 /* MonteCarloCircle.swift */,
@@ -212,6 +256,9 @@
 			dependencies = (
 			);
 			name = "monteCarloE-x (macOS)";
+			packageProductDependencies = (
+				7F67120C25E1BA5900538DD5 /* CorePlot */,
+			);
 			productName = "monteCarloE-x (macOS)";
 			productReference = 7F123D0E25E01DFA00A0311B /* monteCarloE-x.app */;
 			productType = "com.apple.product-type.application";
@@ -286,6 +333,9 @@
 				Base,
 			);
 			mainGroup = 7F123CF925E01DF800A0311B;
+			packageReferences = (
+				7F67120B25E1BA5900538DD5 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = 7F123D0725E01DFA00A0311B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -337,10 +387,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F17046325E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */,
+				7F6711D725E1B89700538DD5 /* CorePlot.swift in Sources */,
 				7F17045225E023FA00329BA9 /* Monte_Carlo_IntegrationApp.swift in Sources */,
+				7F6711EF25E1B89700538DD5 /* TextView.swift in Sources */,
 				7F17044E25E023FA00329BA9 /* BoundingBox.swift in Sources */,
+				7F6711EB25E1B89700538DD5 /* CalculatePlotData.swift in Sources */,
 				7F17044225E023FA00329BA9 /* MonteCarloCircle.swift in Sources */,
+				7F6711E725E1B89700538DD5 /* operators.swift in Sources */,
+				7F6711E325E1B89700538DD5 /* TextExportDocument.swift in Sources */,
 				7F17044625E023FA00329BA9 /* ContentView.swift in Sources */,
+				7F6711DF25E1B89700538DD5 /* PlotDataClass.swift in Sources */,
+				7F6711D325E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */,
 				7F17044A25E023FA00329BA9 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,10 +407,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F17046425E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */,
+				7F6711D825E1B89700538DD5 /* CorePlot.swift in Sources */,
 				7F17045325E023FA00329BA9 /* Monte_Carlo_IntegrationApp.swift in Sources */,
+				7F6711F025E1B89700538DD5 /* TextView.swift in Sources */,
 				7F17044F25E023FA00329BA9 /* BoundingBox.swift in Sources */,
+				7F6711EC25E1B89700538DD5 /* CalculatePlotData.swift in Sources */,
 				7F17044325E023FA00329BA9 /* MonteCarloCircle.swift in Sources */,
+				7F6711E825E1B89700538DD5 /* operators.swift in Sources */,
+				7F6711E425E1B89700538DD5 /* TextExportDocument.swift in Sources */,
 				7F17044725E023FA00329BA9 /* ContentView.swift in Sources */,
+				7F6711E025E1B89700538DD5 /* PlotDataClass.swift in Sources */,
+				7F6711D425E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */,
 				7F17044B25E023FA00329BA9 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,11 +427,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F17045425E023FA00329BA9 /* Monte_Carlo_IntegrationApp.swift in Sources */,
+				7F6711D525E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */,
 				7F17046525E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */,
+				7F6711D925E1B89700538DD5 /* CorePlot.swift in Sources */,
+				7F6711E125E1B89700538DD5 /* PlotDataClass.swift in Sources */,
 				7F17045025E023FA00329BA9 /* BoundingBox.swift in Sources */,
 				7F123D1B25E01DFA00A0311B /* Tests_iOS.swift in Sources */,
 				7F17044425E023FA00329BA9 /* MonteCarloCircle.swift in Sources */,
+				7F6711E925E1B89700538DD5 /* operators.swift in Sources */,
+				7F6711F125E1B89700538DD5 /* TextView.swift in Sources */,
 				7F17044825E023FA00329BA9 /* ContentView.swift in Sources */,
+				7F6711E525E1B89700538DD5 /* TextExportDocument.swift in Sources */,
+				7F6711ED25E1B89700538DD5 /* CalculatePlotData.swift in Sources */,
 				7F17044C25E023FA00329BA9 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,11 +448,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F17045525E023FA00329BA9 /* Monte_Carlo_IntegrationApp.swift in Sources */,
+				7F6711D625E1B89700538DD5 /* ChangingPlotParameters.swift in Sources */,
 				7F17046625E025C800329BA9 /* monteCarloEToMinusX.swift in Sources */,
+				7F6711DA25E1B89700538DD5 /* CorePlot.swift in Sources */,
+				7F6711E225E1B89700538DD5 /* PlotDataClass.swift in Sources */,
 				7F17045125E023FA00329BA9 /* BoundingBox.swift in Sources */,
 				7F123D2625E01DFA00A0311B /* Tests_macOS.swift in Sources */,
 				7F17044525E023FA00329BA9 /* MonteCarloCircle.swift in Sources */,
+				7F6711EA25E1B89700538DD5 /* operators.swift in Sources */,
+				7F6711F225E1B89700538DD5 /* TextView.swift in Sources */,
 				7F17044925E023FA00329BA9 /* ContentView.swift in Sources */,
+				7F6711E625E1B89700538DD5 /* TextExportDocument.swift in Sources */,
+				7F6711EE25E1B89700538DD5 /* CalculatePlotData.swift in Sources */,
 				7F17044D25E023FA00329BA9 /* DrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -744,6 +822,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F67120B25E1BA5900538DD5 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot/";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F67120C25E1BA5900538DD5 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F67120B25E1BA5900538DD5 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F123CFA25E01DF800A0311B /* Project object */;
 }
