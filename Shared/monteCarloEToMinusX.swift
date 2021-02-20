@@ -37,8 +37,6 @@ class MonteCarloEToMinusX: MonteCarloCircle {
         
             // Generate random x and y
             // compare exp(-x) to random y
-            // if random y at x less than real y (aka exp(-x)) add to inside points
-            // otherwise add to outside points
             point.xPoint = Double.random(in: xMin...xMax)
             point.yPoint = Double.random(in: yMin...yMax)
             
@@ -97,11 +95,7 @@ class MonteCarloEToMinusX: MonteCarloCircle {
         totalGuesses = totalGuesses + guesses
         
         totalGuessesString = "\(totalGuesses)"
-        
-        ///Calculates the value of π from the area of a unit circle
-        
-        //I don't want pi though, I want exp(-x) right?
-        
+                
         pi = totalIntegral/Double(totalGuesses) * boundingBoxCalculator.calculateSurfaceArea(numberOfSides: 2, lengthOfSide1: (xMax-xMin), lengthOfSide2: (yMax-yMin), lengthOfSide3: 0.0)
         
         integralString = "\(pi)"

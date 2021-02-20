@@ -81,7 +81,24 @@ class Tests_macOS: XCTestCase {
         
     }
 */
-
+    func testMonteCarloIntegral() {
+        
+        let monteCarlo = MonteCarloEToMinusX(withData: true)
+        
+        monteCarlo.guesses = 9120217
+        monteCarlo.calculateIntegral()
+        
+        //what is this supposed to be from?
+        let eToMinus1 = Double(monteCarlo.piString)
+        
+        let realValue = (-exp(-1.0)+exp(0.0))
+        
+        // Then
+        XCTAssertEqual(eToMinus1!, realValue, accuracy: 0.0005, "expected better from you")
+        
+    }
+    
+    
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
